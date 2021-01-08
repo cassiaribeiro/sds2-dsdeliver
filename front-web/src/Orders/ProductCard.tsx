@@ -20,7 +20,7 @@ function ProductCard({ product }: Props) {
               {product.name}
             </h3>
             <img 
-                src={product.immageUri}    
+                src={product.imageUri}    
                 className="order-card-image"
                 alt={product.name}
             />

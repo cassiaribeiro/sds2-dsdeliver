@@ -3,5 +3,11 @@ export type Product = {
     name: string;
     price: number;
     description: string;
-    immageUri: string;
+    imageUri: string;
+}
+
+export type OrderLocationdata = {
+    address: string;
+    latitude: number;
+    longitude: number;
 }
